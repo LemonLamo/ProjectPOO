@@ -1,3 +1,5 @@
+package project_poo;
+
 public class Cos extends OperationUnaire{
     public Cos (double a) {
         super(a);

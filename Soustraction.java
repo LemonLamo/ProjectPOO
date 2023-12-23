@@ -1,3 +1,4 @@
+package project_poo;
 public class Soustraction extends OperationBinaire {
     public Soustraction(double a , double b) {
         super(a, b) ;    

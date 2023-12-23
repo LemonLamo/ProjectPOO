@@ -1,3 +1,5 @@
+package project_poo;
+
 public class Exp extends OperationUnaire {
     public Exp(double a) {
         super(a);

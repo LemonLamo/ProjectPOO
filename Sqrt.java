@@ -1,8 +1,10 @@
+package project_poo;
+
 public class Sqrt extends OperationUnaire {
     public Sqrt(double a) {
         super(a);
         if (a<0) {
-            throw new IllegalArgumentException("don't put a negative value in a square root x)");
+            throw new ArithmeticException("don't put a negative value in a square root x)");
         }
     }
 

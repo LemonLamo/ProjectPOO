@@ -1,3 +1,5 @@
+package project_poo;
+
 public class Log extends OperationUnaire{
     public Log (double a) {
         super(a);

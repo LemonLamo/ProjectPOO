@@ -1,3 +1,5 @@
+package project_poo;
+
 public class Multiplication extends OperationBinaire {
     public Multiplication(double a , double b) {
         super(a, b) ;    

@@ -1,3 +1,5 @@
+package project_poo;
+
 public class Sin extends OperationUnaire{
     public Sin (double a) {
         super(a);

@@ -1,3 +1,5 @@
+package project_poo;
+
 public abstract class OperationUnaire  implements CalculMath{
       protected double val;
 
@@ -5,5 +7,6 @@ public abstract class OperationUnaire  implements CalculMath{
         this.val= a;
       }
       public abstract double calculer(); //same as OperationBinaire
+
 }
 
