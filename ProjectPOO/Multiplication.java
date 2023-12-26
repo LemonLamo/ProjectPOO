@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public class Multiplication extends OperationBinaire {
     public Multiplication(double a , double b) {

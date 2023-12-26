@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public class Division extends OperationBinaire {
      public Division (double a, double b) {

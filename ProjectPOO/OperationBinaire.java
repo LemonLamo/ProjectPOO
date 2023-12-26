@@ -1,4 +1,5 @@
-package project_poo;
+package ProjectPOO;
+
 public abstract class  OperationBinaire implements CalculMath{
     protected double val1;
     protected double val2;

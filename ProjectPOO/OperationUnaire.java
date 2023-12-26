@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public abstract class OperationUnaire  implements CalculMath{
       protected double val;

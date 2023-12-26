@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -166,19 +166,43 @@ public class Calculatrice {
 		last = answer;
 		return answer;
 	}
-	
-    public static void main(String[] args) {
+	// added user experience in the main 
+	public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Calculatrice calculator = new Calculatrice();
 
-    	Scanner S = new Scanner(System.in);
-    	Calculatrice k = new Calculatrice();
-    	String in;
-    	while(true){
-    	in = S.nextLine();   
-    	if(in.startsWith("exit")) {
-    		break;
-    	}
-        System.out.println(k.Calculate(in,0));     
-    	}
-        S.close();
+        System.out.println("Welcome to the Calculator!");
+		System.out.println("---------------------------------------------------------------");
+        System.out.println("(This calculator was created by Koucem Lamia and Naoui Khaled).");
+        System.out.println("For an explanation of how to use the calculator, type 'help'.");
+        System.out.println("Enter your expression or type 'exit' to quit:");
+
+        String input;
+        while (true) {
+            input = scanner.nextLine();
+
+            if (input.equals("exit")) {
+                break;
+            } else if (input.equals("help")) {
+                displayHelp();
+            } else {
+                double result = calculator.Calculate(input, 0);
+                System.out.println("Result: " + result);
+            }
+        }
+        scanner.close();
+    }
+
+    private static void displayHelp() {
+        System.out.println("How to Use the Calculator:");
+		System.out.println("------------------------------------------------------------");
+        System.out.println("1) Type a mathematical expression using the following format:");
+        System.out.println("2) Use '+', '-', '*', '/' for basic operations.");
+        System.out.println("3) Use functions like 'cos()', 'sin()', 'e()', 'log()', 'sqrt()' for trigonometric and other functions.");
+        System.out.println("4) Use 'ans' to refer to the last calculated result.");
+        System.out.println("5) Type 'exit' to quit the calculator.");
+		System.out.println("\nExample Expression: \"3 * 4 / 2 - ans\"\n");
+		System.out.println("------------------------------------------------------------");
+		System.out.println("- Enter your expression :) : ");
     }
 }

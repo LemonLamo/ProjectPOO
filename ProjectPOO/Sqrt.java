@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public class Sqrt extends OperationUnaire {
     public Sqrt(double a) {

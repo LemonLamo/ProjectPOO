@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public interface CalculMath {
     double calculer() ;

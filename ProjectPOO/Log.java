@@ -1,10 +1,10 @@
-package project_poo;
+package ProjectPOO;
 
 public class Log extends OperationUnaire{
     public Log (double a) {
         super(a);
         if (a <=0) {
-            throw new IllegalArgumentException("ur value should be positive for the log");
+            throw new IllegalArgumentException("your value should be positive for the log");
         }
     }
     @Override

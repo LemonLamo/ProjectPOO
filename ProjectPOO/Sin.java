@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public class Sin extends OperationUnaire{
     public Sin (double a) {

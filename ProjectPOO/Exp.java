@@ -1,4 +1,4 @@
-package project_poo;
+package ProjectPOO;
 
 public class Exp extends OperationUnaire {
     public Exp(double a) {
